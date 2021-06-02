@@ -1,0 +1,12 @@
+{
+  "name": "auto-config",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "bash": "chmod 777 nginx.sh && ./nginx.sh",
+    "git": "git add . && git commit -m \"update\" && git push"
+  },
+  "repository": "https://github.com/lunamcsv/auto-config.git",
+  "author": "lunamcsv <lunamcsv@gmail.com>",
+  "license": "MIT"
+}
